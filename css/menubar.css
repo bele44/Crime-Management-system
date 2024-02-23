@@ -1,0 +1,53 @@
+/*drop down list*/
+
+#menubar ul
+{
+list-style:none;
+display: block;
+}
+#menubar ul li
+{
+background-color:#242553;;
+width:178px;
+height:50px;
+text-align:center;
+line-height:40px;
+float:left;
+position:relative;
+}
+#menubar ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+#menubar ul li a:hover
+{background-color:#D6AE58;
+ font-family:elephant;
+ color:red;
+ border-radius:2px;
+ display: block;
+}
+#menubar ul li a:active
+{background-color:#D6AE58;
+ font-family:elephant;
+ color:yellow;
+ border-radius:2px;
+ display: block;
+}
+#menubar ul ul
+{
+position: relative;
+display:none;
+margin-left:-40px;
+}
+#menubar ul li:hover > ul
+{
+display:block;
+
+}
+#menubar ul ul ul
+{
+margin-left:130px;
+top:0px;
+}

@@ -1,0 +1,235 @@
+body{
+	
+background-color:#d1d1d1;	
+}
+
+
+#wrapper{
+	margin-left: 55px;
+	width: 90%;
+	height: auto;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-top: 10px;
+	background-color: #e19e7d;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius:10px;	
+}
+#header{
+	width: 98%;
+	margin:0px auto;
+	height:170px;
+	background-color:#242553;
+	position: relative;	
+	border-top-left-radius: 2px;
+	border-top-right-radius:2px;
+	margin-left:10px;
+}
+#header img{
+	margin-top: 30px;
+}
+
+#headermenu{
+	width: 98%;
+	height:50px;
+	background-color:#242553;
+	position: relative;	
+	margin-left:10px;
+    display: block;
+    margin-top: -20px;
+}
+
+#maincontent{
+	background-color: #eee;
+	width: 98%;
+	height: auto;
+	margin-left:10px;
+	position: relative;
+}
+#ContentLeft {
+	width:200px;
+	height: 600px;
+	line-height:15px;
+	color:white;
+	text-decoration:none;
+	margin-top: 0px;
+	margin-left: -3px
+	}
+#ContentLeft  H1{
+    display:block;
+	line-height:40px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	background:#16a5c7;
+	color:white;
+	text-decoration:none;
+	margin-top:0px;
+	vertical-align:middle;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	margin-left:0px;
+	}
+	
+#ContentLeft ul li{
+margin-top:0px;	
+position: relative;
+list-style-type: none;
+display: block;
+padding:15px;
+border:1px solid #bc84bd;
+margin-left:-40px;
+}
+#ContentLeft ul li a{
+text-decoration: none;
+color:white;
+margin: auto;
+padding:20px;
+padding-left:0px;
+	}
+#ContentLeft ul li:hover{
+background:#8296b0;	
+transform: linear all 0.40s;
+margin-left: -40px;
+}
+#ContentRight
+{
+	width:210px;
+	color:white;
+	text-decoration:none;
+	height: auto;
+	line-height:15px;
+	margin-top: -303px;
+	margin-right: -7px
+	}
+#ContentRight ul li{
+margin-top:0px;	
+position: relative;
+list-style-type: none;
+display: block;
+padding:15px;
+margin-left:-40px;
+}
+#ContentRight ul li a{
+text-decoration: none;
+color:white;
+margin: auto;
+padding:20px;
+padding-left:0px;
+	}
+#ContentRight ul li:hover{
+background:#8296b0;	
+transform: linear all 0.40s;
+margin-left: -40px;
+}
+#ContentCenter {
+   display:block;
+	width:740px;
+	height: 600px;
+	line-height:20px;
+	background-color:#f3f3f3;
+	color:#0e7497;
+	text-decoration:none;
+	border-radius:5px;
+	margin-left:-3px;
+	}
+#ContentCenter p{
+	color:#3004a4;
+	background-color:#ffffff;
+	margin-left:50px;
+	margin-right: 50px;
+	text-align: justify;
+	}
+#ContentCenter h1{
+        display:block;
+		text-decoration:none;
+		font-size:1.2em;
+	    margin:25px;
+		font-weight:bold;
+		text-align:center;
+		border-radius:0px;
+	}
+#ContentCenter form {
+			display:block;
+			width: auto;
+			line-height:30px;
+			height: auto;
+			}
+ fieldset
+  {
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  	margin: auto;#eee
+  	background-color: #eee;
+  }
+fieldset
+{
+border-bottom-left-radius:10px;	
+border-bottom-right-radius:10px;	
+border-top-left-radius:10px;	
+border-top-right-radius:10px;	
+}
+input[type="password"], input[type="text"],input[type="email"],input[type="date"],input[type="file"],select,textarea,input[type="number"],input[type="submit"]
+ {
+  color:#020b05;
+  height: 35px;
+  width: 235px;
+}
+input[type="submit"],input[type="reset"]
+ {
+  border: 1px solid #a1a3a3;
+  border-radius: 5px;
+  border-color: #48b7b4;
+  box-shadow: 0 1px #02418c;
+  box-sizing: border-box;
+  color:#020b05;
+  height: 35px;
+  transition: box-shadow 0.3s;
+  width: 100px;;
+  
+}
+
+input[type="password"]:focus, input[type="text"]:focus ,input[type="email"]:focus,input[type="file"]:focus,input[type="date"]:focus,select:focus,textarea:focus
+{
+ background-color:#dfdeeb;
+}
+
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+input[type="submit"],input[type="reset"]
+ {
+  border: 1px solid #a1a3a3;
+  border-radius: 5px;
+  border-color: #48b7b4;
+  box-shadow: 0 1px #02418c;
+  box-sizing: border-box;
+  height: 30px;
+  transition: box-shadow 0.3s;
+  width: 90px;;
+ background:#3d97d3; 
+ color:#5b0000;
+ font-size:20px'
+}
+input[type="submit"]:hover
+ {
+ color:white;
+}
+input[type="reset"]:hover
+ {
+ color:white;
+}
+#footer{
+	margin-bottom: 0px;
+	width: 98%;
+	height:60px;
+	color:white;  
+    background-color: #242553;
+    margin-left:10px;
+	position: relative;	
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
